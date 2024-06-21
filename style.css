@@ -19,7 +19,7 @@ header {
   padding: 2rem;
 }
 .baslik {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .bttn button {
   padding: 1rem;
@@ -27,27 +27,43 @@ header {
   border: none;
   font-size: 1rem;
   font-weight: 500;
+  width: 110px;
+  margin-top: 0.5rem;
+}
+button:hover {
+  background-color: orange;
+  border-radius: 1rem;
 }
 main {
   display: flex;
   flex-wrap: wrap;
   min-height: 100vh;
   max-width: 100%;
-  border: 2px solid black;
+  /*   border: 2px solid black;
+ */
+}
+main {
+  margin: 20px 50px;
 }
 .img {
   display: flex;
   flex-wrap: wrap;
   border-radius: 10px;
   gap: 3rem;
+  display: flex;
+  justify-content: center;
 }
 img {
+  border: 1px solid rgba(197, 194, 194, 0.493);
+  border-radius: 1rem;
+  padding: 1rem;
   width: 30%;
 }
 .fttr {
   font-size: 30px;
   color: black;
-  border: 3px solid red;
   background-color: #f5b088;
   padding: 2rem;
+  display: flex;
+  justify-content: center;
 }
